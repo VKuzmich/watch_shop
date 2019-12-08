@@ -1,4 +1,5 @@
-version: 2.0
+version: 2.1
+
 
 orbs:
   ruby: circleci/ruby@0.1.2 # Ruby orb registry: https://circleci.com/orbs/registry/orb/circleci/ruby
@@ -6,7 +7,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.6.3-stretch-node
+      - image: circleci/ruby:2.6.3
     steps:
       - checkout
       - run:
