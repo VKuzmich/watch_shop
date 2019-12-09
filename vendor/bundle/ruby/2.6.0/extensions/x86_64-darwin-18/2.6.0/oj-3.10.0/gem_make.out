@@ -1,0 +1,76 @@
+current directory: /Users/vladimirkuzmich/watch_shop/watch_shop/vendor/bundle/ruby/2.6.0/gems/oj-3.10.0/ext/oj
+/Users/vladimirkuzmich/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/vladimirkuzmich/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20191209-18049-o63gdj.rb extconf.rb
+>>>>> Creating Makefile for ruby version 2.6.3 on x86_64-darwin18 <<<<<
+checking for rb_time_timespec()... yes
+checking for rb_ivar_count()... yes
+checking for rb_ivar_foreach()... yes
+checking for stpcpy()... yes
+checking for rb_data_object_wrap()... yes
+checking for pthread_mutex_init()... yes
+creating Makefile
+
+current directory: /Users/vladimirkuzmich/watch_shop/watch_shop/vendor/bundle/ruby/2.6.0/gems/oj-3.10.0/ext/oj
+make "DESTDIR=" clean
+
+current directory: /Users/vladimirkuzmich/watch_shop/watch_shop/vendor/bundle/ruby/2.6.0/gems/oj-3.10.0/ext/oj
+make "DESTDIR="
+compiling cache8.c
+compiling circarray.c
+compiling code.c
+compiling compat.c
+compiling custom.c
+compiling dump.c
+dump.c:117:25: warning: function 'raise_strict' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+raise_strict(VALUE obj) {
+                        ^
+dump.c:254:58: warning: function 'raise_invalid_unicode' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+raise_invalid_unicode(const char *str, int len, int pos) {
+                                                         ^
+dump.c:728:53: warning: function 'debug_raise' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+debug_raise(const char *orig, size_t cnt, int line) {
+                                                    ^
+3 warnings generated.
+compiling dump_compat.c
+dump_compat.c:22:60: warning: function 'raise_json_err' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+raise_json_err(const char *msg, const char *err_classname) {
+                                                           ^
+1 warning generated.
+compiling dump_leaf.c
+compiling dump_object.c
+compiling dump_strict.c
+dump_strict.c:27:25: warning: function 'raise_strict' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+raise_strict(VALUE obj) {
+                        ^
+1 warning generated.
+compiling err.c
+compiling fast.c
+compiling hash.c
+compiling hash_test.c
+compiling mimic_json.c
+compiling object.c
+compiling odd.c
+compiling oj.c
+compiling parse.c
+compiling rails.c
+compiling reader.c
+compiling resolve.c
+compiling rxclass.c
+compiling saj.c
+compiling scp.c
+compiling sparse.c
+compiling stream_writer.c
+compiling strict.c
+compiling string_writer.c
+compiling trace.c
+compiling util.c
+compiling val_stack.c
+compiling wab.c
+wab.c:84:22: warning: function 'raise_wab' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+raise_wab(VALUE obj) {
+                     ^
+1 warning generated.
+linking shared-object oj/oj.bundle
+
+current directory: /Users/vladimirkuzmich/watch_shop/watch_shop/vendor/bundle/ruby/2.6.0/gems/oj-3.10.0/ext/oj
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 oj.bundle ./.gem.20191209-18049-cijdek/oj

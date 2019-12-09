@@ -1,0 +1,15 @@
+current directory: /Users/vladimirkuzmich/watch_shop/watch_shop/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+/Users/vladimirkuzmich/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/vladimirkuzmich/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20191209-18049-19bmlpi.rb extconf.rb
+creating Makefile
+
+current directory: /Users/vladimirkuzmich/watch_shop/watch_shop/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/vladimirkuzmich/watch_shop/watch_shop/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/vladimirkuzmich/watch_shop/watch_shop/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20191209-18049-1viqr2d/bootsnap
