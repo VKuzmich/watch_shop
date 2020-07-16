@@ -48,7 +48,7 @@ group :development, :test do
   gem 'rspec-core', '~> 3.9'
   gem 'rspec-expectations', '~> 3.9'
   gem 'rspec-mocks', '~> 3.9'
-  gem 'rspec-rails', '~> 3.9'
+  gem 'rspec-rails', '4.0.0.beta3'
   gem 'rspec-support', '~> 3.9'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -67,12 +67,11 @@ end
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
-  gem 'chromedriver-helper', '~> 2.1', '>= 2.1.1'
   gem 'db-query-matchers', '~> 0.10.0'
   gem 'json_spec', '~> 1.1', '>= 1.1.5'
+  gem 'rspec-json_expectations', '~> 2.2'
   gem 'launchy', '~> 2.4', '>= 2.4.3'
   gem 'rubocop', '~> 0.77.0', require: false
-  gem 'selenium-webdriver'
   gem 'shoulda-matchers', '~> 4.1', '>= 4.1.2'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
